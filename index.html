@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thabo Mecury Nkosi Personal Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
+  
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+   
+</head>
+
+<body>
+
+
+  <!--
+    - container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <!--
+        - navbar toggle open button
+      -->
+
+      <button class="menu-open-btn">
+        <span>Menu</span>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="nav">
+
+        <button class="menu-close-btn">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <h4 class="nav-heading">Menu</h4>
+
+        <ul>
+
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+        </ul>
+
+
+        <div class="nav-footer">
+
+          <ul class="social-link">
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-behance"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <p>Developed by <a href="#" class="link-underline">Thabo Mecury Nkosi</a></p>
+
+        </div>
+
+      </nav>
+
+
+      <!--
+        - header intro
+      -->
+
+      <section class="intro section-padding">
+
+        <div class="intro-profile">
+
+          <div class="intro-border one"></div>
+          <div class="intro-border two"></div>
+
+          <div class="img-box">
+            <img src="./assets/images/IMG_20200410_012707_708.jpg" alt="" class="intro-img" width="100%" loading="lazy">
+          </div>
+
+          <p>Hi ther! I am</p>
+
+          <div class="profile-name">
+            <span>[</span>
+            <div>Thabo Mecury Nkosi</div>
+            <span>]</span>
+          </div>
+
+        </div>
+
+        <a href="#contact" class="intro-link">
+          <span class="circle"></span>
+          <span class="link-underline">I’m available for a Software development job.</span>
+        </a>
+
+      </section>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME
+      -->
+
+      <section class="section-padding" id="home">
+
+        <h3 class="section-subtitle">Introduction</h3>
+
+        <h2 class="section-title">Software Engineer</h2>
+
+        <p class="section-desc">Quisitive, energetic computer sciencea and information systems student skilled in leadership, 
+          with a strong foundation in math, logic, and cross-platform coding. 
+          Seeking to leverage solid skills in collaboration, communication,
+           and development as a programmer.</p>
+
+        <!-- <img src="./assets/images/signature.png" width="200px" alt="" loading="lazy"> -->
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section-padding" id="about">
+
+        <h3 class="section-subtitle">About me</h3>
+
+        <h2 class="section-title">Biography</h2>
+
+        <p class="section-desc">I am hard working student with solid
+          computer science background and
+          excellent in programming skills.
+          Seeking for a computer science
+          student position to hone my skills.
+          Coming with strong collaborative and
+          interpersonal skills.</p>
+
+
+        <table class="about-table">
+          <tr>
+            <th>Name</th>
+            <td>Thabo Mecury Nkosi</td>
+          </tr>
+          <tr>
+            <th>Birthday</th>
+            <td>24th September 2000</td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td>22 years</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>Robert Sobukwe Rd, Bellville,Cape Town ,7535</td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td>
+              <a href="tel:+27820658280" class="link-underline">(+27) 82 065 8280</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>
+              <a href="thabomecury956@gmail.com" class="link-underline">thabomecury956@gmail.com</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Twitter</th>
+            <td>
+              <a href="#" class="link-underline">@ThaboMecury</a>
+            </td>
+          </tr>
+        </table>
+
+        <button class="download-cv">
+          <ion-icon name="cloud-download-outline"></ion-icon>
+          <span>Download cv</span>
+        </button>
+
+
+        <div class="about-tab">
+
+          <ul class="tab-nav">
+
+            <li>
+              <button class="one tab-button active">Experience</button>
+            </li>
+            <li>
+              <button class="two tab-button">Education</button>
+            </li>
+            <li>
+              <button class="three tab-button">Skills</button>
+            </li>
+
+          </ul>
+
+          <div class="tab-content-group">
+
+            <div class="one tab-content active">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>University of the western Cape</h4>
+                  <p>(2022/02/14-2022/10/28)</p>
+                </div>
+                
+
+
+
+                <div class="card-body">
+                  <h3>Information system Tutor </h3>
+                  <p>I assist 40 second years’ students with understanding their
+                    course work and provide guidance.
+                    Attend weekly practical sessions with the students
+                   I mark and provide constructive feedback on each practical
+                    submission.
+                   Attend weekly tutor meetings where we discuss challenges
+                    from the previous week and the practical assignment for the
+                    upcoming week.</p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="two tab-content">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Suikerland secondary school</h4>
+                  <p>( 2015/01/25 - 2019/12/30 )</p>
+                </div>
+                <div class="card-body">
+                  <h3>National Senior Certificate (Bachelor’s degree)</h3>
+                  <p>Siswati Home Language,
+                    English First Additonal Language,
+                    Mathematics,
+                    Life Orientation,
+                    Computer Applications Technology,
+                    Geography,
+                    Physical sciences  
+                  </p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4> MTN Business APP Academy (IT Varsity)</h4>
+                  <p>(  2021/06/01 - 2021/08/30)</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>NQF level 5 certificate</h3>
+                  <p> Module 1( Apps Innovation, Business and Prototyping),
+                    Module 2(Development with Flutter),
+                    Module 3(Designing for Apps,Functionality and Intelligence),
+                    Module 4(Backend for Apps),
+                    Module 5(Present information in a public setting, professionalism and ethics in the IT industry and Digital Transformation ),
+                    Module 6(System Analysis:information Gathering,Problem-Solving and Software Testing),
+                    Module 7(Problem-solving, Software Testing and Boolean Algebra),
+                    Module 8(Database)
+                  </p>
+                </div>
+
+              </div>
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>University of the western Cape</h4>
+                  <p>( 2020/01/01 – 2022/12/20 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>BSc Computer Science</h3>
+                  <p>Level 1</p>
+                  <p>Computer Fundamentals 114,
+                    English for Educational Development 127,
+                    Computer Science 101,
+                    Mathematics 105,
+                    Statistics 111,
+                    Information Systems 132
+                  </p>
+                    <p>Level 2</p>
+                   <p> Computer Science211,
+                    Computer Science 212,
+                    Information Systems231,
+                    Information Systems 233,
+                    Mathematics 211,
+                    Mathematics 221</p>
+                    <p>Level 3</p>
+                    <p>
+                      Computer Science 311,
+                      Computer Science 312,
+                      Information Systems 361,
+                      Information Systems 362
+                    </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="three tab-content">
+
+              <div class="skill-box">
+                <h4 class="skill-name">Problem-Solving Algorithms and Programming,Computer Fundamentals</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 92%;"></div>
+                  <div class="progress-rate" style="left: 92%;">80%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Programming Languages: Java,HTML5 & CSS,Python,Flutter(Dart)</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 95%;"></div>
+                  <div class="progress-rate" style="left: 95%;">90%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Algorithms and data structure(java), Algorithms and Architectures</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%;"></div>
+                  <div class="progress-rate" style="left: 80%;">80%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">wix.com</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%;"></div>
+                  <div class="progress-rate" style="left: 85%;">90%</div>
+                </div>
+              </div>
+
+              <p class="skill-text">
+                Innovative and team-oriented computer scientist with knowledge on building and testing applications for Android,
+                 iOS and Windows. Strong knowledge of developing and maintaining websites, 
+                 including using UX best practices to improve visitor engagement. 
+                Able to communicate complex concepts to those without a technical background in a clear manner.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <section class="section-padding" id="portfolio">
+
+        <h3 class="section-subtitle">Portfolio</h3>
+
+        <div class="wrapper">
+
+          <h2 class="section-title">Featured Projects</h2>
+
+          <div class="btn-group">
+            <button id="portfolio-carousel-prev">
+              <div class="arrow">
+                <div class="arrow-head-left"></div>
+              </div>
+            </button>
+
+            <button id="portfolio-carousel-next">
+              <div class="arrow">
+                <div class="arrow-head-right"></div>
+              </div>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="portfolio-carousel">
+
+          <div class="portfolio-carousel-inner">
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/bookings.png" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>Javascript and Html & css</p>
+                <h4><a href="#">Flight Booking System</a></h4>
+              </div>
+
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/screen.png" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>Flutter (Android,iOS and web)</p>
+                <h4><a href="#">Finding a doctor</a></h4>
+              </div>
+
+            </div>
+
+
+      </section>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+
+      <section class="section-padding" id="contact">
+
+        <h3 class="section-subtitle">Contact</h3>
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="section-desc">If you have any suggestion, project or even you want to say “hello”, please
+          fill out the form below and I will reply you shortly.</p>
+
+
+        <form action="#" class="contact-form">
+          <div class="alert">Your message sent</div>
+
+          <div class="wrapper">
+            
+
+            <div>
+              <label for="name">Name *</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+              <label for="email">Email *</label>
+              <input type="text" name="email" id="email" required>
+            </div>
+
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone">
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="8"></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+
+        </form>
+
+        <div class="address">
+          <h4>Address</h4>
+          <address>University of the Western Cape,Robert Sobukwe Rd, Bellville,Cape Town ,7535</address>
+        </div>
+
+        <div class="phone">
+          <h4>Phone</h4>
+          <a href="tel:+1234567890">(+27) 065-8280</a>
+        </div>
+
+        <div class="email">
+          <a href="mailto:brucewilson@gmail.com" class="link-underline">thabomecury956@gmail.com</a>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #FOOTER
+      -->
+
+      <div class="footer">
+
+        <a href="#home" class="go-top">
+          <div class="arrow">
+            <div class="arrow-head"></div>
+          </div>
+        </a>
+
+        <p class="copyright">
+          Copyright © 2022. All rights reserved.
+          <br>
+          Developed by <a href="#" class="link-underline">ThaboMecury</a>
+        </p>
+
+      </div>
+
+    </main>
+
+  </div>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+
+  <!--
+   - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
